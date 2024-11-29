@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mystical Realm Adventure Mad Lib</title>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <title>Galactic Voyage Story Creator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary-color: #8b4513;
-            --background-color: #f4e4d0;
-            --text-color: #2c3e50;
-            --accent-color: #5d3000;
+            --primary-color: #1e90ff;
+            --background-color: #0d1117;
+            --text-color: #c9d1d9;
+            --accent-color: #ff4500;
         }
 
         * {
@@ -20,21 +20,21 @@
         }
 
         body {
-            font-family: 'Merriweather', serif;
+            font-family: 'Orbitron', sans-serif;
             background-color: var(--background-color);
             color: var(--text-color);
             line-height: 1.6;
             padding: 1rem;
-            background-image: url('https://ideogram.ai/assets/image/lossless/response/medieval-fantasy-landscape');
+            background-image: url('https://ideogram.ai/assets/image/lossless/response/space-galaxy-scene');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
         }
 
         .container {
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: rgba(0, 0, 0, 0.85);
             border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.6);
             padding: 2rem;
             width: 100%;
             max-width: 800px;
@@ -65,13 +65,14 @@
             padding: 0.5rem;
             border: 2px solid var(--primary-color);
             border-radius: 5px;
-            font-family: 'Merriweather', serif;
+            background-color: #0d1117;
+            color: var(--text-color);
         }
 
         .form-group input:focus {
             outline: none;
             border-color: var(--accent-color);
-            box-shadow: 0 0 5px rgba(93, 48, 0, 0.3);
+            box-shadow: 0 0 5px rgba(255, 69, 0, 0.5);
         }
 
         button {
@@ -81,7 +82,7 @@
             padding: 0.75rem 1.5rem;
             border-radius: 8px;
             cursor: pointer;
-            font-family: 'Merriweather', serif;
+            font-family: 'Orbitron', sans-serif;
             font-weight: bold;
             transition: background-color 0.3s ease;
             margin-top: 1rem;
@@ -99,9 +100,9 @@
         }
 
         .addendum {
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: rgba(0, 0, 0, 0.85);
             border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.6);
             padding: 2rem;
             width: 100%;
             max-width: 800px;
@@ -136,60 +137,60 @@
 </head>
 <body>
     <div class="container">
-        <h1> Mystical Realm Adventure Mad Lib!</h1>
+        <h1> Galactic Voyage Story Creator!</h1>
         
         <form action="/ITC505/lab-7/index.html" method="post">
             <div class="form-group">
-                <label for="magicalCreature"> Enter magical creatures (plural):</label>
-                <input type="text" id="magicalCreature" name="magicalCreature" required placeholder="e.g., elven warriors">
+                <label for="alienSpecies"> Enter alien species (plural):</label>
+                <input type="text" id="alienSpecies" name="alienSpecies" required placeholder="e.g., Martian settlers">
             </div>
 
             <div class="form-group">
-                <label for="enchantedObject"> Enter an enchanted object:</label>
-                <input type="text" id="enchantedObject" name="enchantedObject" required placeholder="e.g., crystal staff">
+                <label for="cosmicArtifact"> Enter a cosmic artifact:</label>
+                <input type="text" id="cosmicArtifact" name="cosmicArtifact" required placeholder="e.g., Quantum Sphere">
             </div>
 
             <div class="form-group">
-                <label for="heroAction"> Enter a heroic action verb:</label>
-                <input type="text" id="heroAction" name="heroAction" required placeholder="e.g., vanquish">
+                <label for="braveVerb"> Enter a brave verb:</label>
+                <input type="text" id="braveVerb" name="braveVerb" required placeholder="e.g., conquer">
             </div>
 
             <div class="form-group">
-                <label for="mysteriousAdverb"> Enter a mysterious adverb:</label>
-                <input type="text" id="mysteriousAdverb" name="mysteriousAdverb" required placeholder="e.g., silently">
+                <label for="cosmicAdverb"> Enter a cosmic adverb:</label>
+                <input type="text" id="cosmicAdverb" name="cosmicAdverb" required placeholder="e.g., intergalactically">
             </div>
 
             <div class="form-group">
-                <label for="legendaryLocation"> Enter a legendary location:</label>
-                <input type="text" id="legendaryLocation" name="legendaryLocation" required placeholder="e.g., Shadowmere Kingdom">
+                <label for="galacticRegion"> Enter a galactic region:</label>
+                <input type="text" id="galacticRegion" name="galacticRegion" required placeholder="e.g., Andromeda Nebula">
             </div>
 
-            <button type="submit">Create My Magical Quest! 🧙‍♂️</button>
+            <button type="submit">Craft My Galactic Saga! 🚀</button>
         </form>
 
         <span id="lastModified"></span>
     </div>
 
     <div class="addendum">
-        <h2>Addendum: Creative Process and Design Philosophy</h2>
+        <h2>Addendum: Story Design Principles</h2>
         <ul>
             <li>
-                <strong>Narrative Depth:</strong> Designed to transport users into a rich, imaginative fantasy world with carefully curated language.
+                <strong>Immersive Universe:</strong> Built to launch users into a thrilling, futuristic sci-fi realm.
             </li>
             <li>
-                <strong>Interactive Storytelling:</strong> Implemented a dynamic narrative generation system that encourages creative exploration.
+                <strong>Interactive Creativity:</strong> Developed an input system that allows users to shape their unique galactic tales.
             </li>
             <li>
-                <strong>Magical User Interface:</strong> Developed an interface that captures the whimsy and wonder of mythical storytelling.
+                <strong>Tech-Infused Aesthetics:</strong> Crafted an interface inspired by high-tech space themes.
             </li>
             <li>
-                <strong>Emotional Engagement:</strong> Created input prompts that spark imagination and invite playful participation.
+                <strong>Cosmic Exploration:</strong> Sparked curiosity and excitement for interstellar adventures.
             </li>
             <li>
-                <strong>Adaptive Storytelling:</strong> Constructed a flexible narrative framework that transforms user inputs into unique magical adventures.
+                <strong>Flexible Narratives:</strong> Engineered a system to adapt user input into endless space odysseys.
             </li>
             <li>
-                <strong>Visual Metaphors:</strong> Employed fantasy-themed iconography to enhance the immersive storytelling experience.
+                <strong>Visual Themes:</strong> Integrated futuristic design elements to evoke the wonder of the cosmos.
             </li>
         </ul>
     </div>
